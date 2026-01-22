@@ -30,4 +30,13 @@ id  name              teacher_id
 4   PHP-ohjelmointi   NULL      
 5   Neuroverkot       3   
 ```
-
+- The value in row 4 teacher_idis NULL, so if we run either of the previous queries, the problem is that row 4 does not match any `Teachers` row in the table. As a result, there will be no row in the scoreboard for the course PHP Programming:
+```text
+name              name   
+----------------  -------
+Laskennan mallit  Kivinen
+Tietoverkot       Kaila  
+Graduseminaari    Kaila  
+Neuroverkot       Kivinen
+```
+- 
